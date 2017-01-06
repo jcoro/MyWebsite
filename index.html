@@ -1,24 +1,58 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>This is document title</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="This is my personal website"/>
+    <meta name="keywords"
+    content="free web development tutorial, learn to build websites, learn
+    to build games, html, css, javascript, html5 canvas, html5 tutorial, html5 tutorial"/>
+    <meta name="robots" content="index, follow"/>
+    <!--This is where we'll link to our JavaScript file -->
+    <!--<script src="assets/js/main.js"> </script>-->
+    <base href="../MyWebsite/"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <title>My Personal Website</title>
   </head>
   <body>
-    <h1>This is an &lt;h1&gt; heading</h1>
-    <h2>This is an &lt;h2&gt; heading</h2>
-    <h3>This is an &lt;h3&gt; heading</h3>
-    <h4>This is an &lt;h4&gt; heading</h4>
-    <p>This is paragraph text inside a &lt;p&gt; tag</p>
-    <!-- We use this syntax to write comments -->
-    <ul>
-      <li>Unordered List Item #1</li>
-      <li>Unordered List Item #2</li>
-      <li>Unordered List Item #3</li>
-    </ul>
-    <ol>
-      <li>Ordered List Item #1</li>
-      <li>Ordered List Item #2</li>
-      <li>Ordered List Item #3</li>
-    </ol>
+    <header>
+      <div class="container header-container">
+        <div id="logo-header">
+          <a class="logo" href="#">
+            LOGO
+          </a>
+        </div>
+        <nav class="desktop-menu">
+          <ul id="topnav">
+            <li>
+              <a href="#" class="navtext">Page 1</a>
+            </li>
+            <li>
+              <a href="#" class="navtext">Page 2</a>
+            </li>
+            <li>
+              <a href="#" class="navtext">Page 3</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="container wrapper">
+      <h1>This is an &lt;h1&gt; heading</h1>
+      <h2>This is an &lt;h2&gt; heading</h2>
+      <h3>This is an &lt;h3&gt; heading</h3>
+      <h4>This is an &lt;h4&gt; heading</h4>
+      <p>This is paragraph text inside a &lt;p&gt; tag</p>
+      <!-- We use this syntax to write comments -->
+      <ul>
+        <li>Unordered List Item #1</li>
+        <li>Unordered List Item #2</li>
+        <li>Unordered List Item #3</li>
+      </ul>
+      <ol>
+        <li>Ordered List Item #1</li>
+        <li>Ordered List Item #2</li>
+        <li>Ordered List Item #3</li>
+      </ol>
+    </div>
   </body>
 </html>

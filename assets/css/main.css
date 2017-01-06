@@ -1,0 +1,51 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: .875em;
+  color: #000000;
+  margin: 0;
+}
+
+header {
+  display: block;
+  width: 100%;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  width: 970px;
+  overflow: hidden;
+}
+
+.header-container {
+  padding-top:10px;
+}
+
+#logo-header {
+  float:left;
+  display:inline-block;
+}
+
+nav.desktop-menu {
+  float: right;
+  display:inline-block;
+}
+
+ul#topnav {
+  margin: 0;
+  padding:0;
+}
+
+ul#topnav li {
+  display: inline-block;
+}
+
+ul#topnav li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0px 15px;
+}
+
+.wrapper {
+  padding: 30px;
+}
