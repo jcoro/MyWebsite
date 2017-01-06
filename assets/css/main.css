@@ -5,6 +5,10 @@ body {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 header {
   display: block;
   width: 100%;
@@ -41,11 +45,24 @@ ul#topnav li {
 }
 
 ul#topnav li a {
-  text-decoration: none;
   text-transform: uppercase;
   padding: 0px 15px;
 }
 
 .wrapper {
   padding: 30px;
+}
+
+aside.sidebar {
+  width:25%;
+  float:left;
+}
+
+main.page {
+  width:75%;
+  float:left;
+}
+
+article h1 {
+  font-size:2em;
 }
