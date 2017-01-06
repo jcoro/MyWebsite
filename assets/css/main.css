@@ -9,6 +9,11 @@ a {
   text-decoration: none;
 }
 
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
 header {
   display: block;
   width: 100%;
@@ -65,4 +70,79 @@ main.page {
 
 article h1 {
   font-size:2em;
+}
+
+h1, h2, h3, h4 {
+  color: #464646;
+}
+
+.front h3 {
+  color: #FFF;
+}
+
+.card {
+  width: 300px;
+  height: 225px;
+  border: 6px solid #FFF;
+  border-radius: 6px;
+  cursor: pointer;
+  text-align: center;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transition: all 1s linear 0s;
+  -moz-transition: all 1s linear 0s;
+  -o-transition: all 1s linear 0s;
+  -ms-transition: all 1s linear 0s;
+  transition: all 1s linear 0s;
+  -webkit-box-shadow: 0px 0px 10px #aaa;
+  box-shadow: 0px 0px 10px #aaa;
+}
+
+.card:hover {
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+
+.face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backfface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.front{
+  background: #512da8;
+  color:#FFF;
+  border-radius: 6px;
+}
+
+.back {
+  background-color: #ffd800;
+  color: #464646;
+  border-radius: 6px;
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+
+section {
+  padding:20px;
+  float:left;
+}
+
+p.card-text {
+  padding: 0 20px;
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: capitalize;
 }
